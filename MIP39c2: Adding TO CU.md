@@ -4,7 +4,7 @@
 
 ```
 MIP39c2-SP#: #21
-Author(s): @eskp
+Author(s): Simon KP
 Contributors:
 Status:
 Date Applied: <yyyy-mm-dd>
@@ -13,11 +13,11 @@ Date Ratified: <yyyy-mm-dd>
 
 ## Sentence Summary
 
-MIP39c2-SP21 adds TechOps Core Unit to handle all of the System Adminstration and Technical Support needs of Maker Protocol and its Core Units.
+MIP39c2-SP21 adds TechOps Core Unit to handle System Adminstration and Technical Support needs of Maker Protocol and its Core Units.
 
 ## Paragraph Summary
 
-Striving to improve communication and collaboration between the developers, end users and other stakeholders by applying DevOps principles to software delivery and first class technical support. Getting things done safer and faster in an automated and repeatable way with the help from some of the modern Infrastructure Administration tools. While continuously monitoring and improving the process throughout.
+TechOps Core Unit will handle System Adminstration and Technical Support needs of Maker Protocol and its Core Units. Striving to improve communication and collaboration between the developers, end users and other stakeholders by applying DevOps principles to software delivery and first class technical support. Getting things done safer and faster in an automated and repeatable way with the help from some of the modern Infrastructure Administration tools. While continuously monitoring and improving the process throughout.
 
 ## Specification
 
@@ -51,36 +51,61 @@ TechOps Core Unit
 
 ### Proposed Core Unit Facilitator(s)
 
-@eskp and @dizzy
+Simon KP (@eskp) and George Niculae (@dizzy)
 
 ### Core Unit Team
 
 #### Core Unit Facilitator(s) - 2
 
+TODO Mention LLC here when sorted out
+
 - Communications with Governance and Community
 - Agile workload management
-- Managing budget and business strategy
+- Managing budget and strategy
 - 24 hour availability due to time zones coverage
 - No single point of failure
 
 #### Engineering - currently 5
 
-Will be looking to hire another 2 Techops Engineers in the near future.
+So far we have total time zone coverage with Engineers in USA, x3 EU and APAC.
+
+Will be looking to hire another 2 Engineers in the near future to cover more time zones. Namely USA and APAC.
 
 #### Account manager / project manager
 
-Will be looking to hire in the near future. The main objective is to relieve the Facilitators.
+Will be looking to hire in the near future. The main objective is to relieve the Facilitators to focus more on Engineering tasks and communications with the community.
 
 ### Core Unit Mandate (Responsibilities)
 
-#### Maker Protocol Focus
+The main areas of responsibilities are:
 
-- Infrastructure hosting and collaboration with other CUs
+- Hosting and supporting Critical Maker Components
+- General System Administration
+- DevOps Services to deliver services reliably
+- Research and Development to future proof the infrastructure we manage
+
+*Note:* Due to the limited number of FTE resources and costly cloud infrastructure (see Budget) it is up to the TechOps Core Unit to triage incoming requests and in some cases declaring work as out of scope and infrastructure not critical.
+Basically TOCU will not use DAO funds lightly to support trivial infrastructure.
+
+#### Critical Maker Components
+
+- Infrastructure hosting
 
   - *Protocol Engineering CU* for Eth nodes provisioning, administration and monitoring
   - *Oracle CU* for Administration, Monitoring and new Collateral onboarding
   - *DUX CU* - hosting of the Governance portal
-  - Other critical Maker protocol components such as various *Keepers*
+  - Critical Maker protocol components such as:
+    - Auctions portal
+    - Forum
+    - Discord administration
+    - Blog
+    - Various *keepers* - open source services to facilitate Maker smart contracts operations
+      - [ETH Filler](https://github.com/makerdao/eth-filler)
+      - [Poker Keeper](https://github.com/makerdao/poker-keeper)
+      - [Chief Keeper](https://github.com/makerdao/chief-keeper)
+      - [Chief Keeper](https://github.com/makerdao/chief-keeper)
+      - [Cage Keeper](https://github.com/makerdao/cage-keeper)
+      - [Drip Keeper](https://github.com/makerdao/drip-keeper)
 
 - Infrastructure Monitoring & Alerts
 
@@ -92,20 +117,22 @@ Will be looking to hire in the near future. The main objective is to relieve the
 
 - Technical Support
 
-  - Support other CUs with setting up accounts, helping with infrastructure setup and configuration, security best practices education, and so on
+  - Support CUs we work with, to set up accounts, helping with infrastructure setup and configuration, security best practices education, and so on
   - 24/7 follow the sun support, assessment and remediation
 
 - Tools administration
 
-  - 3rd party services administration and management
+  - 3rd party services administration and management eg. Discord, Grafana, PagerDuty
 
 #### General System Administration
 
-- Documentation
+- Infrastructure hosting for the CUs that we work with
+
+- Documentation of critical components
 
 - Cloud providers management
 
-  - Multiple cloud providers to prevent lock-in, add pricing options and introduce fault tolerance. Automated with Terraform.
+  - Multiple cloud providers to prevent lock-in, add pricing options and introduce fault tolerance. Automated with Infrastructure as Code.
 
 - Network & Security
 
@@ -132,17 +159,16 @@ Will be looking to hire in the near future. The main objective is to relieve the
 
 - Infrastructure as Code Automation
 
-  * Cloud Environment provisioning with [Terraform](https://www.terraform.io/)
+  * Cloud Environment provisioning
   * Cost management & Optimizations
 
 - Source control and artifacts management
 
-  * Github repositories
-  * Docker repositories
+  * Github and Docker repositories
 
 - CI/CD - Setting up automated delivery and testing pipelines to deploy Maker services to various environments with confidence
 
-  * Github Actions and other systems
+  * Github Actions and other CI systems
 
 - Monitoring, Metrics & Alerts
 
@@ -157,11 +183,64 @@ Will be looking to hire in the near future. The main objective is to relieve the
 
   * Expected to be continuously learning
   * Provide environment for safe experimentation
-  * Regular knowledge sharing presentations within the team and outside
+  * Regular knowledge sharing presentations within the team and to outside stakeholders
 
-#### Research & Development
+#### Roadmap and R&D/POC
 
-- Eth2 nodes administration
+- Eth2 node administration
 - Container orchestration on Kubernetes
-- Chaos Engineering implementation
+- Chaos Engineering implementation. Explain a little. Testing of redundancy
 - Mapping and establishing SLIs and SLOs (SLOs are a tool to help determine what engineering work to prioritize. Striking the right balance between investing in functionality that will win new customers or retain current ones, versus investing in the reliability and scalability that will keep those customers happy.)
+
+### Challenges
+
+- Implementing secure self-service infrastructure
+- Incoming vs Project Work Prioritization
+- Team knowledge sharing and keeping up to date
+- Collaboration and communication with stakeholders
+
+### Strategy for dealing with the Challenges
+
+By following the rapid continuous improvement and innovation cycle between TechOps and other CUs we strive to improve communication and collaboration between the developers, end users and other stakeholders (that is all participants in MakerDAO ecosystem, not just technical Core Units) by applying DevOps and SRE (Site Reliability Engineering) principles.
+
+TODO <graphic here>
+
+#### Plan
+
+- Establish clear priorities
+  - Ensure that urgent or time sensitive work is prioritized appropriately
+
+- Conduct peer code reviews
+  - Minimum of 2 other engineers looking at every code change
+
+- Limit WiP
+  - Minimize context switching and improve quality of work
+
+- Knowledge sharing sessions
+  - Analyze our performance and update the process as necessary
+
+#### Provision Infrastructure with Infrastructure as Code
+
+- Easy to understand and share with others
+- Simple and fast to change, upgrade and scale
+- Fast feedback from problems
+
+#### Service Building & Continuous Delivery
+
+We work closely with the developers (and other CUs) to provide them with service delivery pipelines for their service’s code repositories. This allows them to get their work done in smaller batches and automatically deploy new changes, leading to higher quality software and faster feedback from tests and the user.
+
+#### Monitoring Applications, Protocol & Infrastructure
+
+Providing monitoring components such as:
+- Performance monitoring
+- Insight into system components
+- Metrics, Logs and Dashboards
+- Alerting infrastructure
+
+#### Continuous Feedback & Transparency
+
+- From the Community
+  - Regular meetings for a chance to hear from the stakeholders with any feedback
+
+- Metrics & Logs
+  - Monitoring systems setup to gather a constant stream of data to improve our positioning for a more reliable infrastructure
