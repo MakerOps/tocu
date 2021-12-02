@@ -57,7 +57,7 @@ Simon KP (@eskp) and George Niculae (@dizzy)
 
 #### Core Unit Facilitator(s) - 2
 
-TODO Mention LLC here when sorted out
+TODO Mention LLC(s) here when sorted out
 
 - Communications with Governance and Community
 - Agile workload management
@@ -97,8 +97,9 @@ Basically TOCU will not use DAO funds lightly to support trivial infrastructure.
   - Critical Maker protocol components such as:
     - Auctions portal
     - Forum
-    - Discord administration
+    - Website TODO Sort out who is responsible - not TOCU
     - Blog
+    - Discord administration
     - Various *keepers* - open source services to facilitate Maker smart contracts operations
       - [ETH Filler](https://github.com/makerdao/eth-filler)
       - [Poker Keeper](https://github.com/makerdao/poker-keeper)
@@ -110,6 +111,8 @@ Basically TOCU will not use DAO funds lightly to support trivial infrastructure.
 - Infrastructure Monitoring & Alerts
 
   - Dashboards, response to alerts and Reports
+
+  *Note*: TOCU is not responsible for any actions taken from looking at the metrics presented through the dashboards hosted by TOCU. All the data is public and available to be consumed by everyone.
 
 - Development & QA
 
@@ -203,7 +206,10 @@ Basically TOCU will not use DAO funds lightly to support trivial infrastructure.
 
 By following the rapid continuous improvement and innovation cycle between TechOps and other CUs we strive to improve communication and collaboration between the developers, end users and other stakeholders (that is all participants in MakerDAO ecosystem, not just technical Core Units) by applying DevOps and SRE (Site Reliability Engineering) principles.
 
-TODO <graphic here>
+<br />
+<img src="DevOps.png" alt="DevOps" width="600"/>
+
+Source: atlassian.com
 
 #### Plan
 
