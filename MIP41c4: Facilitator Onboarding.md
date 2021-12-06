@@ -27,10 +27,10 @@ TechOps Core Unit
 
 ### Facilitator name and information
 
-Name: Simon Kelada-Polupanov (Simon KP)
-Forum: @simonkp
-Discord: @eskp aka @simonkp
-Github: @eskp
+- Name: Simon Kelada-Polupanov (Simon KP)
+- Forum: @simonkp
+- Discord: @eskp aka @simonkp
+- Github: @eskp
 
 ### Facilitator Commitment
 
