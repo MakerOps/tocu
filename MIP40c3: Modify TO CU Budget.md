@@ -73,7 +73,7 @@ In our fast moving industry it becomes absolutely paramount to keep up to date w
 #### Hardware
 The TechOps Core Unit engineers may need to conduct various tests locally that can't be deployed to our Cloud infrastructure. This can include but not limited to Ethereum nodes that require specific hardware components or application building and testing hardware.
 #### Contingency
-The contingency represents TODO Exact number of the total budget and is there to act as a safety buffer against any unknown or unexpected costs.
+The contingency represents just under 5% of the total budget and is there to act as a safety buffer against any unknown or unexpected costs.
 
 ### Budget Distribution
 The budget is to be distributed on a monthly basis to the TechOps Core Unit Multisig, which is an instance of a Gnosis Safe multisig.
@@ -86,13 +86,16 @@ The multisig has 2 signers (see below) with a quorum of 2 and Maker protocol rem
 TechOps Core Unit Multisig - 0x...
 Designated Contact: Simon KP
 Quorum - 2
-Signers:
+Signers: 2
+Simon
+Dumitru
 
 TODO Multisig info when ready
+Address:
 
 
 TODO Confirm
-This multisig conforms to the requirement ratified by Maker Governance in MIP47.
+This multisig conforms to the requirement ratified by Maker Governance in [MIP47](https://mips.makerdao.com/mips/details/MIP47).
 
 ### MKR Vesting
 
