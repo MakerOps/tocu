@@ -42,7 +42,7 @@ A list of responsibilities may include:
 - Serve as main point of contact for TOCU
 - Communicate, collaborate and stay up to date with the community
 - Maintain visibility and transparency with the community
-- Look after my team mates
+- Look after my team mates by making myself available to listen and represent their wishes to the DAO
 - Attract the best talent to grow TOCU
 
 ### Facilitator Credentials
