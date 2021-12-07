@@ -34,8 +34,7 @@ TechOps Core Unit
 
 ### Facilitator Commitment
 
-My role is to support the Mandate and business continuity for the TechOps Core Unit.
-Myself and Dumitru, a second facilitator for this Core Unit, will be the point of contact between TOCU and other Core Units to further contribute to MakerDAO ecosystem security and collaboration. Dumitru is based in EU and I am in APAC for 24 hour time zone coverage and operations with no single point of failure.
+My role is to support the Mandate and business continuity for the TechOps Core Unit. Myself and Dumitru will be the two facilitators for this Core Unit. We'll be the point of contact between TOCU and other Core Units to further contribute to MakerDAO ecosystem security and collaboration. Dumitru is based in EU and I am in APAC for 24 hour time zone coverage and operations with no single point of failure.
 
 A list of responsibilities may include:
 
