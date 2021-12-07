@@ -6,8 +6,8 @@
 MIP41c4-SP#: #
 Author(s): Simon KP
 Contributors: N/A
-Status:
-Date Applied: <yyyy-mm-dd>
+Status: RFC
+Date Applied: 2021-12-08
 Date Ratified: <yyyy-mm-dd>
 ```
 
@@ -35,9 +35,10 @@ TechOps Core Unit
 ### Facilitator Commitment
 
 My role is to support the Mandate and business continuity for the TechOps Core Unit.
-I will be the point of contact between TOCU and other Core Units to further contribute to MakerDAO ecosystem security and collaboration.
+Myself and Dumitru, a second facilitator for this Core Unit, will be the point of contact between TOCU and other Core Units to further contribute to MakerDAO ecosystem security and collaboration. Dumitru is based in EU and I am in APAC for 24 hour time zone coverage and operations with no single point of failure.
 
 A list of responsibilities may include:
+
 - Be the Facilitator and DevOps Engineer for TechOps Core Unit
 - Serve as main point of contact for TOCU
 - Communicate, collaborate and stay up to date with the community
@@ -48,6 +49,7 @@ A list of responsibilities may include:
 ### Facilitator Credentials
 
 Past experience:
+
 - https://www.linkedin.com/in/simonpolupanov/
 - Senior DevOps Engineer at Maker Foundation
 - Over 10 years of practical experience in designing and maintaining large scale production systems
